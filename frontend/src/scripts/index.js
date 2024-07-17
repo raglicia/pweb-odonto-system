@@ -23,7 +23,7 @@ function irTelaDentista() {
 }
 
 function irTelaFuncionario() {
-  window.location.href = "";
+  window.location.href = "../gerente/funcionario.html";
 }
 
 function irTelaCadastrarDentista() {
@@ -31,3 +31,21 @@ function irTelaCadastrarDentista() {
 }
 
 // navegação das telas dentista
+function irTelaPacientesDentista() {
+  window.location.href = "../dentista/Pacientes.html";
+}
+function irTelaProntuarioDentista() {
+  window.location.href = "../dentista/prontuario_dentista.html";
+}
+
+function irTelaAgendaDentista() {
+  window.location.href = "../dentista/agenda.html";
+}
+
+function irTelaCadastrarConsulta() {
+  window.location.href = "../gerente/calendario.html";
+}
+
+function irTelaCriarProntuario() {
+  window.location.href = "../dentista/prontuario.html";
+}
